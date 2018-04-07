@@ -1,7 +1,7 @@
 #!groovy
 node {
     stage('Git checkout') { // for display purposes
-        git 'https://github.com/luntik1589/e2e-automation-pipeline.git'
+        git 'https://github.com/luntik/e2e-automation-pipeline.git'
     }
     stage('Smoke') {
         try {
